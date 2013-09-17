@@ -7,11 +7,11 @@ require "mysql_agent/version"
 Gem::Specification.new do |s|
   s.name        = "mysql_agent"
   s.version     = MysqlAgent::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of MysqlAgent."
-  s.description = "TODO: Description of MysqlAgent."
+  s.authors     = ["Yang-Hsing Lin"]
+  s.email       = ["yanghsing.lin@gmail.com"]
+  s.homepage    = ""
+  s.summary     = "mysql migration wrapper"
+  s.description = "preserves schema while migrating / schema loading"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
